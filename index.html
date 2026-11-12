@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#F9E08B">
+  <meta name="description" content="Five little challenges. One very heartfelt thank you. A digital adventure from your students.">
+  <title>A Little Surprise for You, Ma’am!</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <script defer src="assets/canvas-confetti.min.js"></script>
+  <script defer src="assets/html2canvas.min.js"></script>
+
+  <script defer src="js/config.js"></script>
+  <script defer src="js/storage.js"></script>
+  <script defer src="js/animations.js"></script>
+  <script defer src="js/challenges.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+  <a class="skip-link sr-only" href="#app">Skip to content</a>
+
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Return to current adventure">
+      <span class="brand-icon" aria-hidden="true">✉</span>
+      a little appreciation<span class="brand-dot" aria-hidden="true">.</span>
+    </a>
+
+    <button id="sound" class="quiet" type="button" aria-pressed="false">
+      ♫ Sound off
+    </button>
+  </header>
+
+  <main id="app" tabindex="-1">
+    <noscript>
+      <p>This little surprise needs JavaScript to work. Please turn it on and refresh.</p>
+    </noscript>
+  </main>
+
+  <footer>
+    <span>MADE WITH LOVE, BY YOUR STUDENTS</span>
+    <span>A little time. A lot of gratitude. <b aria-hidden="true">♡</b></span>
+  </footer>
+
+  <!-- Screen-reader announcements and decorative effects layer -->
+  <div id="announcement" class="sr-only" role="status" aria-live="polite"></div>
+  <div id="effects" aria-hidden="true"></div>
+</body>
+</html>
